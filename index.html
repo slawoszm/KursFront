@@ -9,16 +9,70 @@
 </head>
 
 <body>
-    <header>NAGŁÓWEK</header>
-    <nav>NAWIGACJA</nav>
+    <!-- Nagłówek H1 -->
+    <header>
+        <h1>Sławosz MARCISZ</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Projekty</li>
+            <li>Kontakt</li>
+        </ul>
+    </nav>
     <main>
+        <!-- Zdjęcie -->
+        <img src="avatar.jpg" alt="Sławosz Marcisz (awatar)" width="300px">
         <article>
-            <header>NAGŁÓWEK AUTONOMICZNEJ CZĘŚCI STRONY</header>
+            <!-- Nagłówek H2 -->
+            <header>
+
+                <h2>Technologie</h2>
+            </header>
         </article>
+        <!-- Tabela -->
+        <table border="1">
+            <tr>
+                <th>lp.</th>
+                <th>Moduł</th>
+                <th>Technologia</th>
+                <th>Ocena</th>
+            </tr>
+            <tr>
+                <td rowspan="2">1.</td>
+                <td rowspan="2">HTML</td>
+                <td>Semantyka</td>
+                <td>⭐ ⭐ ⭐ ⭐ ⭐</td>
+            </tr>
+            <tr>
+                <td>Tabele</td>
+                <td>⭐ ⭐ ⭐ ⭐ ⭐</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>CSS</td>
+                <td colspan="2">Nie dotyczy</td>
+            </tr>
+        </table>
         <section>
-            TEMATYCZNIE ZGRUPOWANY KONTENT
+            <!-- Nagłówek -->
+            <header>
+                <h2>Projekty</h2>
+            </header>
         </section>
     </main>
+    <article>
+        <!-- Nagłówek -->
+        <header>
+            <h2>Kontakt</h2>
+        </header>
+        <form action="/index.html">
+            <input type="email" name="" id="" placeholder="e-mail">
+            <input type="text" name="" id="" placeholder="tytuł">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Wyślij">
+        </form>
+    </article>
     <footer>STOPKA</footer>
 </body>
 
