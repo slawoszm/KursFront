@@ -1,0 +1,32 @@
+body {
+    background-color: azure;
+    margin: 0;
+}
+
+
+/* nagłówek */
+
+body>header {
+    border: 10px solid rgba(255, 0, 0, 0.589);
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.349);
+}
+
+nav ul {
+    border: 2px dashed red;
+    /* punktowanie listy */
+    list-style-type: none;
+    padding: 0;
+    height: 50px;
+    /* DISPLAY FLEX */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* kopanie flex 
+    flex-direction: column; */
+}
+
+nav ul li {
+    /* POJEDYNCZE ELEMENTY MENU */
+    border: 2px dashed blue;
+}
