@@ -1,6 +1,9 @@
 # KursFront
+Kurs v0.32
+CSS - dodanie klas
+
 Kurs v0.31
-    CSS - modyfikacja przycisków 
+    CSS - modyfikacja przycisków  
 
 Kurs v0.3
 Dopięcie CSS
@@ -11,3 +14,4 @@ Kurs v0.2
 
 Kurs v0.1
 Utworzenie struktury HTML
+ 
