@@ -1,4 +1,6 @@
 # KursFront
+Kurs v0.31
+    CSS - modyfikacja przycisków 
 
 Kurs v0.3
 Dopięcie CSS

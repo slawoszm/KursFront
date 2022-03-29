@@ -7,26 +7,45 @@ body {
 /* nagłówek */
 
 body>header {
-    border: 10px solid rgba(255, 0, 0, 0.589);
+    border: 10px solid rgb(255, 0, 0);
     text-align: center;
     background-color: rgba(0, 255, 255, 0.349);
 }
 
 nav ul {
-    border: 2px dashed red;
+    background-color: bisque;
+    border: 10px solid rgb(255, 0, 0);
+    border-top: none;
     /* punktowanie listy */
     list-style-type: none;
     padding: 0;
-    height: 50px;
+    margin: 0;
     /* DISPLAY FLEX */
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     /* kopanie flex 
     flex-direction: column; */
 }
 
 nav ul li {
     /* POJEDYNCZE ELEMENTY MENU */
-    border: 2px dashed blue;
+    border: 2px solid blue;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(70, 9, 9);
+    color: rgb(216, 215, 185);
+    cursor: pointer;
+    transition: 1s;
+}
+
+nav ul li:hover {
+    background-color: yellowgreen;
+    color: #000;
+}
+
+nav ul li:active {
+    background-color: aqua;
+    color: #000;
+    transition: none;
 }
